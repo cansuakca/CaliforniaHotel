@@ -1,0 +1,445 @@
+/*anarenk :00ffff*/
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+img{
+	width:100%;
+	
+}
+.container{
+	width:1166px;
+	margin:0 auto;
+}
+body,p,li{
+	margin:0;
+	padding:0;
+}
+a{
+	text-decoration:none;
+}
+.clear{
+	clear:both;
+}
+.anakisim{
+	width:100%;
+   
+}
+ 
+.ickisim{
+	width:1100px;
+	margin:0 auto;
+	 
+}
+.baslik{
+	background-color:#3c9e9e;
+	
+}
+.baslik .logo{
+	float:left;
+	display:inline-block;
+
+}
+.baslik .menu-sosyal-medya .menu ul{
+	list-style:none;
+}
+
+.baslik .menu-sosyal-medya .menu ul li{
+	float:left;
+	color: #ffffff;
+	} 
+.baslik .menu-sosyal-medya .menu ul li a{
+	 text-align:left;
+	 color: #ffffff;
+}
+.baslik .menu-sosyal-medya .menu ul li a{
+	 display:block;
+	 padding:20px 14px
+	
+}
+.baslik .menu-sosyal-medya .menu ul li a:hover{
+	
+	background-color:#000000;
+	
+	
+}
+.baslik .menu-sosyal-medya{
+	float:right;
+}
+.baslik .menu-sosyal-medya .menu ul li a i{
+	width:80px;
+	height:74px;
+	display:inline-block;
+	background-position:center;
+}
+.yaraticikisim .resim{
+	width:50%;
+
+}
+
+.slide{
+	width: 100%;
+	height: 600px;
+	display: inline-block;
+	float:left;
+	background-image :url(../images/resim.png);
+	background-repeat:no-repeat;
+	
+}
+.welcome-text{
+  text-align:center;
+  padding:200px 0;
+  color: #fff;
+  
+}  
+
+.welcome-text h4{
+	font-size: 22px;
+	font-weight:500px;
+	line-height:36px;
+	margin-top: 10px;
+	
+}
+.welcome-text a{
+	display: inline-block;
+	margin-top: 15px;
+	padding: 20px 20px;
+	border: 1px solid #fff;
+	color: #fff;
+	font-size: 22px;
+	text-transform:uppercase;
+	font-weight:400;
+	border-radius: 8px;
+	text-decoration:none;
+}
+.services{
+	width:100%;
+	display:inline-block;
+	float:left;
+	padding:80px 0;
+	background-color:#c82ad5
+	
+}
+.service{
+	width:228px;
+	display:inline-block;
+	float:left;
+
+	background-repeat:no-repeat;
+	
+
+}
+.service .service-desc{
+	padding :15px;
+}
+.service .service-desc h2{
+	font-size:24px;
+	line-height: 30px;
+	font-weight:700;
+	text-transform:uppercase;
+	text-align: center;
+	color:#282a2c;
+	padding:10px 0;
+	
+}
+.service .service-desc p{
+	font-size:18px;
+	font-weight:normal;
+	line-height:28px;
+	color:#535353;
+	text-align: center;
+	
+}
+
+.service .service-desc img{
+	font-size:18px;
+	font-weight:normal;
+	line-height:28px;
+	color:#535353;
+	text-align: center;
+	
+}
+.service-margin{
+	margin:0 54px;
+	
+}
+.ourmission{
+    width:100%;
+    display:inline-block;
+    background-image: url(../images/pic.png);
+    background-position: right;
+	background-repeat:no-repeat;
+  
+}
+.ourmission  .container {
+	width:50%;
+	height:400px;
+	display:inline-block;
+	background-position: left;
+	padding:100px 15px;
+	color:#535353;
+	text-align: left;
+	
+	
+}
+.ourmission .ourmission-inner p{
+	
+	text-align:left;
+	font-size:18px;
+	font-weight:300px;
+}
+
+.ourmission  h3{
+	font-size:28px;
+	font-weight:400px;
+	padding :15px;
+	text-transform:center;
+	text-align: center;
+    
+}
+
+.ourmission  h4{
+	
+	font-size:15px;
+    line-height:20px;
+	text-align: left;
+	color: #333333;
+	font-weight: 100;
+	padding :40px;
+	
+	
+	
+	
+}
+
+.services h3{
+	font-size:38px;
+	font-weight:100;
+	text-transform:center;
+    margin-bottom:10px;
+	text-align: center;
+}
+.rates{
+    width:100%;
+    display:inline-block;
+	background-repeat:no-repeat;
+    margin:0 auto;
+
+}
+
+
+.rates .container{
+	text-align: center;
+	font-size:28px;
+	font-weight:400px;
+	padding:90px 15px;
+	text-transform:center;
+
+    
+}
+.rates .container .service .service-desc p{
+	text-align: center;
+	font-size:20px;
+	font-weight:400px;
+	padding:90px 15px;
+	text-transform:center;
+
+    
+}
+
+
+.rates p{
+	font-size:20px;
+	text-align: center;
+
+}
+.rates .container .service p{
+	font-size:10px;
+	text-align: center;
+}
+.rates h3{
+	font-size:28px;
+	font-weight:400px;
+	padding :15px;
+	text-transform:center;
+	text-align: center;
+}
+
+.rates .container  p{
+	
+	font-size:18px;
+	font-weight:100px;
+	padding :45px;
+	text-transform:right;
+	text-align: right;
+}
+.rates .container .service .service-desc{
+	padding :40px;
+}
+.comments{
+	
+	width:100%;
+    display:inline-block;
+    background-position: right;
+	background-repeat:no-repeat;
+    margin:0 auto;
+
+
+}
+.comments h3{
+	font-size:28px;
+	font-weight:100;
+	text-transform:center;
+    margin-bottom:10px;
+   
+}
+.comments  p{
+	text-align: center;
+	font-size:18px;
+	font-weight:400px;
+	
+}
+
+.comments .container{
+	text-align: center;
+    background-image: url(../images/comments-background.png);
+	font-size:28px;
+	font-weight:200px;
+	padding:90px 35px;
+	text-transform:center;
+	padding :25px;
+	
+}
+.comments .container .service .service-desc {
+
+	font-size:20px;
+    line-height:20px;
+	text-align: left;
+	color: #333333;
+	font-weight:90;
+	padding :25px;
+}
+.comments .container .service  {
+	
+	font-size:20px;
+    line-height:20px;
+	text-align: left;
+	color: #333333;
+	font-weight:90;
+	padding :25px;
+}
+
+
+.comments .container .service .service-desc p{
+  
+	font-size:15px;
+    line-height:20px;
+	text-align: left;
+	color: #333333;
+	font-weight: 100;
+	padding :20px;
+}
+
+.comments .service-desc h2{
+	
+	font-size:15px;
+    line-height:20px;
+	text-align: left;
+	color: #333333;
+	font-weight: 100;
+	padding :20px;
+}
+
+
+
+.comments .service .service-desc{
+	padding :20px;
+	
+}
+
+.iletisim .container {
+    width:100%;
+    display:inline-block;
+    background-image: url(../images/comments-background2.png);
+    background-position: right;
+	background-repeat:no-repeat;
+    margin:0 auto;
+	
+	
+}
+[type="date"] {
+  background:#fff url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png)  97% 50% no-repeat ;
+}
+[type="date"]::-webkit-inner-spin-button {
+  display: none;
+}
+[type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
+
+/* custom styles */
+body {
+  padding: 4em;
+  background: #e5e5e5;
+  font: 13px/1.4 Geneva, 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+label {
+  display: block;
+}
+input {
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 3px 5px;
+  box-shadow: inset 0 3px 6px rgba(0,0,0,0.1);
+  width: 190px;
+}
+
+
+
